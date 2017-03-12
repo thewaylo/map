@@ -1,0 +1,36 @@
+.loader {
+    border-top: 16px solid #e65100 ;
+ border-right: 16px solid #f57c00 ;
+ border-bottom: 16px solid #ffb74d  ;
+ border-left: 16px solid #ffe0b2 ;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    margin-top: 15%;
+    
+}
+.myloader{
+    padding-bottom: 1000em;
+    margin-top: 1%;
+}
+@media (max-width: 568px){
+ .myloader{
+        margin-top: 30%;
+    }
+    .head{
+        margin-top: 20%;
+    }
+    .mymap{
+        margin-top: 5%;
+    }
+}
+
+.loader-text{
+    font-weight: 600;
+    color: #e65100;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
