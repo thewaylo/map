@@ -9,8 +9,14 @@
      .h5, h5 {
     font-size: 40px;
     }
+    .gm-style-iw{
+       
+        font-size:50px !important;
+        
+        }
 }
 
 ::-webkit-scrollbar {
     -webkit-appearance: none;
 }
+
