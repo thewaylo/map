@@ -81,7 +81,7 @@ console.log("location array=" + locations);
 var map = new google.maps.Map(document.getElementById('map'), {
 
 	zoom: 15,   //Define the zoom level on map
-
+	gestureHandling: 'greedy',
 	center: new google.maps.LatLng(0, 0),
 	mapTypeId: google.maps.MapTypeId.ROADMAP
 });
