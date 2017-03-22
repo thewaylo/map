@@ -68,9 +68,9 @@ $(document).ready(function () {
 	
 	console.log(window.location.href);
 	console.log(getAllUrlParams().uid);
-	$('#fixed').on('mousewheel touchmove', function (e) {
+	/*$('#fixed').on('mousewheel touchmove', function (e) {
 		e.preventDefault();
-	});
+	});*/
 
 });
 
